@@ -1,0 +1,40 @@
+/*******************************************
+*
+*Author: Rishi ; Date: 21/1/2022
+*
+********************************************/
+
+body{
+    background-color: rgb(40, 42, 54);
+}
+
+p{
+    color: aliceblue;
+}
+
+h1{
+    color: violet;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h2{
+    color: violet;
+    text-decoration: underline;
+}
+
+h3{
+    color: rgb(219, 235, 248);
+}
+
+.contact-method-phone{
+    color: rgb(91, 248, 248);
+}
+
+.contact-method-email{
+    color: rgb(91, 248, 248);
+}
+
+.contact-method-ig{
+    color: rgb(91, 248, 248);
+}
