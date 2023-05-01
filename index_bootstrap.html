@@ -12,17 +12,78 @@
 
 <body>
 
+    <div id="header">
+        <img src="resources/img/girl1.jpg" width="10%" height="10%">
+        <h1>Welcome to SweetMemories page!</h1>
+        <p>We make special and sweet cakes for your special day to make it a sweet memory ❤️</p>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6">
                 <h1>Our Menu</h1>
-                <h2>Birthday Cakes🎈</h2>
-                <p>Choice of Flavours,Choice of Icings</p>
-                <img src="resources/img/simple_birthday_cake.png" alt="simple_birthday_cake" class="img-fluid"/>
 
-                <h2>Anniversary Cakes🥂</h2>
-                <p>Anniversary Special,Choice of Flavours,Choice of Icings</p>
-                <img src="resources/img/anniversary_cake.png" alt="anniversary_cake" class="img-fluid"/>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <img src="resources/img/simple_birthday_cake.png" alt="simple_birthday_cake" class="card-img-top"/>
+                            <div class="card-body">
+                                <h2 class="card-title">Birthday Cakes🎈</h2>
+                                <p class="card-text">Choice of Flavours,Choice of Icings</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <img src="resources/img/simple_cake.png" alt="simple_cake" class="card-img-top"/>
+                            <div class="card-body">
+                                <h2 class="card-title">Normal Cakes🎂</h2>
+                                <p class="card-text">Choice of Flavours,Choice of Icings</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <img src="resources/img/cupcake.png" alt="cupcake" class="card-img-top"/>
+                            <div class="card-body">
+                                <h2 class="card-title">CupCakes🧁 <span class="badge bg-primary">New</span></h2>
+                                <p class="card-text">Choice of Flavours,Choice of Icings,Choice of Sprinkles</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <img src="resources/img/tarts.png" alt="tarts" class="card-img-top"/>
+                            <div class="card-body">
+                                <h2 class="card-title">Tarts🥧<span class="badge bg-primary">New</span></h2>
+                                <p class="card-text">Choice of Dough,Choice of Icing,Fruits/Dry Fruits </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <img src="resources/img/lava.png" alt="lava cake" class="card-img-top"/>
+                            <div class="card-body">
+                                <h2 class="card-title">Lava Cakes🍮</h2>
+                                <p class="card-text">Choice of Filling,Choice of Sprinkles</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <img src="resources/img/anniversary_cake.png" alt="anniversary_cake" class="card-img-top"/>
+                            <div class="card-body">
+                                <h2 class="card-title">Anniversary Cakes🥂</h2>
+                                <p class="card-text">Anniversary Special,Choice of Flavours,Choice of Icings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="col-12 col-lg-6">
@@ -30,7 +91,27 @@
                 <table class="table">
                     <tr>
                         <td>Birthday Cakes</td>
-                        <td>250Rs.Onwards</td>
+                        <td>300Rs.Onwards</td>
+                    </tr>
+
+                    <tr>
+                        <td>Normal Cake</td>
+                        <td>200Rs.Onwards</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cupcakes</td>
+                        <td>50Rs.Onwards</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tarts</td>
+                        <td>110Rs.Onwards</td>
+                    </tr>
+
+                    <tr>
+                        <td>Lava Cake</td>
+                        <td>90Rs.Onwards</td>
                     </tr>
 
                     <tr>
@@ -38,12 +119,28 @@
                         <td>350Rs.Onwards</td>
                     </tr>
                 </table>
+                <div class="alert alert-info" role="alert">
+                    Order Cupcakes Now!
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary">Order Online</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
     </div>
 
-<!-- JavaScript Bundle with Popper -->
+
+
+    <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
 </body>
 
 </html>
