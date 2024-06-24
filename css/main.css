@@ -12,6 +12,10 @@ p{
     color: aliceblue;
 }
 
+li{
+    color: aliceblue;
+}
+
 h1{
     color: violet;
     text-decoration: underline;
@@ -37,4 +41,8 @@ h3{
 
 .contact-method-ig{
     color: rgb(91, 248, 248);
+}
+
+label{
+    color: aliceblue;
 }
